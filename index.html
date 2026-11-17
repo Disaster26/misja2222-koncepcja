@@ -1,0 +1,445 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MISJA 22:22 - służba uwielbienia, koncerty i szkoły uwielbienia | Piotr Płecha</title>
+<meta name="description" content="Wspólnota Chrześcijańska MISJA 22:22 od 2002 roku: prorocze uwielbienie, koncerty, konferencje, szkoły i warsztaty uwielbienia. Zaproś Piotra Płechę i zespół do swojej społeczności.">
+<meta name="robots" content="noindex,nofollow">
+<meta name="theme-color" content="#100D17">
+<link rel="icon" href="foto/ikona.svg" type="image/svg+xml">
+<link rel="icon" type="image/png" sizes="48x48" href="foto/ikona-48.png">
+<link rel="apple-touch-icon" href="foto/ikona-192.png">
+<link rel="preload" href="fonts/fr600-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/mr400-rdzen.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" as="image" type="image/webp" media="(max-width:760px)" imagesrcset="foto/hero-m-480.webp 480w, foto/hero-m-640.webp 640w, foto/hero-m-800.webp 800w" imagesizes="100vw" fetchpriority="high">
+<link rel="preload" as="image" type="image/webp" media="(min-width:761px)" imagesrcset="foto/hero-d-960.webp 960w, foto/hero-d-1280.webp 1280w, foto/hero-d-1600.webp 1600w, foto/hero-d-2000.webp 2000w" imagesizes="100vw" fetchpriority="high">
+<style>
+@font-face{font-family:F;src:url(fonts/fr600-rdzen.woff2) format("woff2");font-weight:600;font-display:swap;unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00BB,U+00D3,U+00F3,U+2013,U+2019,U+201C,U+201D,U+201E,U+2026,U+00B7,U+00D7,U+2022}
+@font-face{font-family:F;src:url(fonts/fr600-pl.woff2) format("woff2");font-weight:600;font-display:swap;unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:M;src:url(fonts/mr400-rdzen.woff2) format("woff2");font-weight:400;font-display:swap;unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00BB,U+00D3,U+00F3,U+2013,U+2019,U+201C,U+201D,U+201E,U+2026,U+00B7,U+00D7,U+2022}
+@font-face{font-family:M;src:url(fonts/mr400-pl.woff2) format("woff2");font-weight:400;font-display:swap;unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:M;src:url(fonts/mr700-rdzen.woff2) format("woff2");font-weight:700;font-display:swap;unicode-range:U+0020-007E,U+00A0,U+00A9,U+00AB,U+00BB,U+00D3,U+00F3,U+2013,U+2019,U+201C,U+201D,U+201E,U+2026,U+00B7,U+00D7,U+2022}
+@font-face{font-family:M;src:url(fonts/mr700-pl.woff2) format("woff2");font-weight:700;font-display:swap;unicode-range:U+0104-0107,U+0118-0119,U+0141-0144,U+015A-015B,U+0179-017C}
+@font-face{font-family:Ff;src:local("Georgia");font-weight:600;size-adjust:104%}
+@font-face{font-family:Mf;src:local("Arial"),local("ArialMT"),local("Roboto");font-weight:400;size-adjust:104%}
+@font-face{font-family:Mf;src:local("Arial Bold"),local("Arial-BoldMT"),local("Roboto Bold");font-weight:700;size-adjust:100%}
+:root{--zl:#C9A227;--zl-t:#7A5F0E;--zl-j:#E2BE4A;--ink:#100D17;--mut:#4C4A55;--line:#DCDEE3;--bg2:#F1F2F5;--dark:#100D17;--foot:#0A0810;--pad:clamp(16px,4vw,64px);--max:1720px}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;scroll-behavior:smooth;scroll-padding-top:66px}
+body{margin:0;background:#fff;color:var(--ink);font:400 18px/1.62 M,Mf,sans-serif;overflow-x:hidden}
+img{max-width:100%;height:auto;display:block}
+a{color:var(--zl-t)}
+h1,h2,h3{font-family:F,Ff,serif;font-weight:600;line-height:1.06;margin:0;letter-spacing:-.012em}
+h2{font-size:clamp(34px,4vw,64px)}
+h3{font-size:clamp(23px,1.8vw,28px);line-height:1.15}
+p{margin:0 0 1em}
+.w{width:min(100% - 2*var(--pad),var(--max));margin-inline:auto}
+/* motyw: klucz z logo narysowany kreska - ucho, trzon, broda z zebami */
+.kl{display:flex;align-items:flex-start;height:16px;color:var(--zl);width:150px}
+.kl:before{content:"";flex:none;width:12px;height:12px;margin-top:-5px;border:2px solid currentColor;border-radius:50%}
+.kl i{flex:1;height:2px;background:currentColor}
+.kl svg{flex:none;width:26px;height:14px;fill:currentColor;margin-left:-1px}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:12px;min-height:56px;padding:0 30px 0 28px;background:var(--zl);color:var(--ink);font:700 18px/1 M,Mf,sans-serif;white-space:nowrap;text-decoration:none;border:0;border-radius:0;cursor:pointer;clip-path:polygon(0 0,100% 0,100% 64%,calc(100% - 9px) 64%,calc(100% - 9px) 100%,0 100%)}
+.btn:hover{background:var(--zl-j)}
+.btn svg{width:20px;height:20px;flex:none}
+.skip{position:absolute;left:-999px;top:0;background:#fff;padding:8px;z-index:99}.skip:focus{left:8px}
+/* naglowek */
+.top{position:sticky;top:0;z-index:40;background:#fff;border-bottom:1px solid var(--line);height:65px}
+.top .w{display:flex;align-items:center;justify-content:space-between;height:64px;gap:16px}
+.logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink)}
+.logo svg{width:68px;height:28px;color:var(--zl);flex:none}
+.logo span{font:700 15px/1 M,Mf,sans-serif;letter-spacing:.02em;white-space:nowrap}
+.logo b{font:600 25px/1 F,Ff,serif;margin-left:3px;letter-spacing:0}
+.menu{display:flex;align-items:center;gap:clamp(16px,2vw,36px)}
+.menu a{color:var(--ink);text-decoration:none;font:700 16.5px/1 M,Mf,sans-serif;padding:12px 0 10px;position:relative}
+.menu a:hover{color:var(--zl-t)}
+.menu a.on:after{content:"";position:absolute;left:0;right:0;bottom:2px;height:2px;background:var(--zl)}
+.menu .btn{min-height:46px;padding:0 22px 0 20px;font-size:16.5px}
+.menu .btn:hover{color:var(--ink)}
+.tel-m,.burger,.acts{display:none}
+@media (max-width:1080px){
+ .menu{position:fixed;inset:64px 0 auto 0;background:#fff;flex-direction:column;align-items:stretch;gap:0;padding:8px var(--pad) 24px;border-bottom:1px solid var(--line);box-shadow:0 18px 30px rgba(16,13,23,.14);transform:translateY(-120%);visibility:hidden;transition:transform .25s ease,visibility 0s .25s}
+ .top.open .menu{transform:none;visibility:visible;transition:transform .25s ease}
+ .menu a{padding:16px 0;font-size:19px;border-bottom:1px solid var(--line)}
+ .menu a.on:after{display:none}
+ .menu a.on{box-shadow:inset 4px 0 0 var(--zl);padding-left:14px}
+ .menu .btn{margin-top:18px;min-height:56px;border:0}
+ .tel-m,.burger{display:inline-flex;align-items:center;justify-content:center;width:48px;height:48px;border:1px solid var(--line);background:#fff;color:var(--ink);cursor:pointer}
+ .tel-m{background:var(--zl);border-color:var(--zl)}
+ .tel-m svg{width:22px;height:22px}
+ .acts{display:flex;gap:8px}
+ .burger i,.burger i:before,.burger i:after{display:block;width:20px;height:2px;background:var(--ink);position:relative;transition:transform .2s}
+ .burger i:before,.burger i:after{content:"";position:absolute;left:0}
+ .burger i:before{top:-6px}.burger i:after{top:6px}
+ .top.open .burger i{background:transparent}.top.open .burger i:before{transform:translateY(6px) rotate(45deg)}.top.open .burger i:after{transform:translateY(-6px) rotate(-45deg)}
+}
+@media (max-width:370px){.logo svg{width:50px}.logo b{font-size:22px}}
+/* hero */
+.hero{position:relative;min-height:calc(100svh - 65px);display:flex;flex-direction:column;justify-content:flex-end;color:#fff;background:var(--dark);overflow:hidden}
+.hero .foto{position:absolute;inset:0}
+.hero .foto img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:60% 40%}
+.hero .foto:after{content:"";position:absolute;inset:0;background:linear-gradient(0deg,rgba(16,13,23,.94) 0,rgba(16,13,23,.72) 34%,rgba(16,13,23,.1) 66%,rgba(16,13,23,0) 80%),linear-gradient(90deg,rgba(16,13,23,.55) 0,rgba(16,13,23,0) 60%)}
+.hero .in{position:relative;z-index:2;padding:80px 0 clamp(40px,5vw,72px)}
+.hero h1{font-size:clamp(44px,4.6vw,92px);max-width:16ch;line-height:1.02}
+.hero h1 em{font-style:normal;color:var(--zl-j)}
+.hero .lead{margin:22px 0 32px;max-width:44ch;font-size:clamp(18px,1.2vw,23px);line-height:1.5;color:#E9E8EE}
+.hero .rz{display:flex;flex-wrap:wrap;align-items:center;gap:18px 28px}
+.hero .alt{margin:0;font-size:15.5px;color:#C9C7D2;max-width:40ch}
+.hero .kl{width:100%;margin-top:clamp(28px,3vw,44px);color:var(--zl)}
+@media (max-width:760px){
+ .hero .foto img{object-position:50% 30%}
+ .hero .foto:after{background:linear-gradient(0deg,rgba(16,13,23,.96) 0,rgba(16,13,23,.82) 40%,rgba(16,13,23,.15) 70%,rgba(16,13,23,0) 84%)}
+ .hero .in{padding:120px 0 30px}
+ .hero h1{font-size:clamp(34px,9.6vw,44px)}
+ .hero .lead{margin:14px 0 24px;font-size:16.5px}
+ .hero .btn{width:100%}
+ .hero .alt{font-size:14px}
+ .hero .rz{gap:14px}
+ .hero .kl{margin-top:24px}
+}
+@media (max-width:760px) and (max-height:700px){.hero .foto:after{background:linear-gradient(0deg,rgba(16,13,23,.97) 0,rgba(16,13,23,.88) 50%,rgba(16,13,23,.2) 78%,rgba(16,13,23,0) 90%)}.hero h1{font-size:clamp(31px,8.6vw,36px)}.hero .lead{font-size:15.5px;margin:10px 0 24px}.hero .in{padding-top:90px;padding-bottom:24px}.hero .kl{margin-top:18px}}
+/* sekcje */
+.sec{padding:clamp(60px,8vw,124px) 0}
+.sec.g{background:var(--bg2)}
+.lead{font-size:clamp(18px,1.35vw,21px);color:var(--mut);max-width:62ch;margin:20px 0 0}
+.glowa{margin-bottom:clamp(30px,4vw,56px)}
+.glowa .kl{margin-top:22px}
+.glowa.r{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:20px 40px}
+/* o nas */
+.on2{display:grid;grid-template-columns:1fr;gap:clamp(36px,5vw,100px);align-items:center}
+@media (min-width:980px){.on2{grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr)}}
+.on2 .txt>p{color:var(--mut);max-width:62ch}
+.werset{display:flex;align-items:baseline;gap:18px;margin:6px 0 26px}
+.werset b{font:600 clamp(64px,7vw,128px)/.9 F,Ff,serif;color:var(--ink);letter-spacing:-.03em}
+.werset span{font-size:16px;color:var(--mut);max-width:20ch;line-height:1.4}
+.cyt{font:600 clamp(24px,2.1vw,34px)/1.25 F,Ff,serif;color:var(--ink);margin:30px 0 26px;max-width:28ch}
+.kraje{font-size:16.5px;color:var(--mut);padding-top:18px;border-top:1px solid var(--line);max-width:62ch}
+.kraje b{color:var(--ink)}
+.on2 figure{margin:0;position:relative}
+.on2 figure img{width:100%;aspect-ratio:3/4;object-fit:cover}
+.on2 figcaption{font-size:15px;color:var(--mut);margin-top:10px}
+/* dzialamy */
+.dz{display:grid;grid-template-columns:1fr;gap:34px clamp(28px,3vw,56px);margin:0;padding:0;list-style:none}
+@media (min-width:640px){.dz{grid-template-columns:1fr 1fr}}
+@media (min-width:1180px){.dz{grid-template-columns:repeat(4,1fr)}}
+.dz .kl{width:96px;margin-bottom:18px}
+.dz h3{margin-bottom:8px}
+.dz p{color:var(--mut);margin:0;font-size:17px}
+.szk{display:grid;grid-template-columns:1fr;gap:0;margin-top:clamp(44px,5vw,72px);background:#fff;border-top:3px solid var(--zl)}
+@media (min-width:900px){.szk{grid-template-columns:1fr 1fr}}
+.szk>div{padding:clamp(22px,3vw,40px)}
+.szk>div+div{border-top:1px solid var(--line)}
+@media (min-width:900px){.szk>div+div{border-top:0;border-left:1px solid var(--line)}}
+.szk small{display:block;font-weight:700;color:var(--zl-t);font-size:15px;margin-bottom:8px}
+.szk h3{margin-bottom:10px}
+.szk p{color:var(--mut);margin:0;font-size:17px}
+.galw{margin-top:clamp(48px,5vw,80px)}
+.navb{display:flex;gap:8px}
+.navb button{width:50px;height:50px;border:1px solid #B5B8C1;background:#fff;cursor:pointer;color:var(--ink);font-size:22px;line-height:1}
+.navb button:hover{border-color:var(--ink)}
+.tor{display:grid;grid-auto-flow:column;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;scrollbar-width:none;padding-bottom:4px;overscroll-behavior-x:contain}
+.tor::-webkit-scrollbar{display:none}
+.tor>*{scroll-snap-align:start}
+.tor.drag{scroll-snap-type:none;cursor:grabbing}.tor.drag *{pointer-events:none}
+img[data-src]{background:#E2E3E8}
+.tor.gal{grid-auto-columns:min(82vw,520px)}
+@media (min-width:1080px){.tor.gal{grid-auto-columns:calc((100% - 32px)/2.6)}}
+@media (min-width:1900px){.tor.gal{grid-auto-columns:calc((100% - 48px)/3.4)}}
+.gal figure{margin:0}
+.gal button{display:block;width:100%;padding:0;border:0;background:#E2E3E8;cursor:zoom-in;overflow:hidden}
+.gal img{width:100%;aspect-ratio:3/2;object-fit:cover;transition:transform .5s}
+.gal button:hover img{transform:scale(1.03)}
+.gal figcaption{font-size:15.5px;color:var(--mut);padding:10px 0 0}
+.galw .glowa{margin-bottom:20px}
+.galw h3{font-size:clamp(26px,2.2vw,34px)}
+/* zapros - ciemna */
+.ciem{background:var(--dark);color:#DCDAE3}
+.ciem h2,.ciem h3{color:#fff}
+.ciem .lead{color:#C4C1CE}
+.zp{display:grid;grid-template-columns:1fr;gap:clamp(36px,5vw,96px);align-items:start}
+@media (min-width:1000px){.zp{grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr)}}
+.zp figure{margin:0}
+.zp figure img{width:100%;aspect-ratio:4/5;object-fit:cover}
+.zp figcaption{font-size:14.5px;color:#9F9CAA;margin-top:10px}
+.pos{list-style:none;margin:34px 0 34px;padding:0;display:grid;grid-template-columns:1fr;gap:0 48px}
+@media (min-width:700px){.pos{grid-template-columns:1fr 1fr}}
+.pos li{padding:16px 0 16px 34px;border-bottom:1px solid #2C2836;position:relative}
+.pos li svg{position:absolute;left:0;top:22px;width:22px;height:12px;fill:var(--zl)}
+.pos b{display:block;color:#fff;font-weight:700;font-size:17.5px;line-height:1.35}
+.pos span{font-size:15.5px;color:#ABA8B6}
+/* muzyka */
+.tor.cd{grid-auto-columns:min(62vw,280px)}
+@media (min-width:1080px){.tor.cd{grid-auto-columns:calc((100% - 80px)/6)}}
+.cd figure{margin:0}
+.cd img{width:100%;aspect-ratio:1;object-fit:cover;box-shadow:0 1px 0 var(--line)}
+.cd figcaption{padding:12px 0 0;font-weight:700;font-size:17px;line-height:1.3}
+.cd figcaption small{display:block;font-weight:400;color:var(--mut);font-size:15px}
+.yt{display:grid;grid-template-columns:1fr;gap:28px clamp(28px,3vw,56px);margin-top:clamp(44px,5vw,72px);padding-top:30px;border-top:1px solid var(--line)}
+@media (min-width:900px){.yt{grid-template-columns:repeat(3,1fr)}}
+.yt h3{margin-bottom:8px}
+.yt p{color:var(--mut);margin:0;font-size:17px}
+.yt a{font-weight:700}
+/* ekipa */
+.ek{display:grid;grid-template-columns:1fr;gap:40px clamp(24px,3vw,48px)}
+@media (min-width:700px){.ek{grid-template-columns:1fr 1fr}}
+@media (min-width:1100px){.ek{grid-template-columns:repeat(3,1fr)}}
+.ek figure{margin:0 0 18px}
+.ek img{width:100%;aspect-ratio:4/5;object-fit:cover;object-position:50% 25%}
+@media (min-width:1100px){.ek img{aspect-ratio:1}}
+.ek h3{margin-bottom:4px}
+.ek .rola{color:var(--zl-t);font-weight:700;font-size:15.5px;margin-bottom:10px}
+.ek p{color:var(--mut);font-size:17px;margin:0}
+.wsp{margin-top:clamp(40px,5vw,64px);padding-top:28px;border-top:1px solid #CDD0D6;max-width:96ch;color:var(--mut)}
+.wsp b{color:var(--ink)}
+/* wsparcie */
+.ws{display:grid;grid-template-columns:1fr;gap:clamp(36px,4vw,80px)}
+@media (min-width:980px){.ws{grid-template-columns:1fr 1fr}}
+.ws .kl{width:96px;margin-bottom:18px}
+.ws h3{font-size:clamp(26px,2.2vw,34px);margin-bottom:12px}
+.ws p{color:var(--mut)}
+.konto{background:var(--bg2);padding:20px 22px;margin:18px 0;border-left:3px solid var(--zl)}
+.konto p{margin:0;color:var(--ink)}
+.konto .nr{font:700 clamp(18px,1.5vw,22px)/1.3 M,Mf,sans-serif;letter-spacing:.02em;margin:6px 0 4px;word-break:break-word}
+.konto small{color:var(--mut);font-size:14.5px}
+.studio{font-weight:700;color:var(--ink)!important}
+/* kontakt */
+.kon{display:grid;grid-template-columns:1fr;gap:clamp(36px,4vw,80px)}
+@media (min-width:980px){.kon{grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr)}}
+.os{display:grid;gap:14px;margin:28px 0 8px}
+.os p{margin:0}
+.os a.t{display:inline-flex;align-items:center;gap:12px;font:600 clamp(32px,3vw,46px)/1 F,Ff,serif;color:var(--ink);text-decoration:none}
+.os a.t svg{width:26px;height:26px;color:var(--zl-t)}
+.os a.t:hover{color:var(--zl-t)}
+.mail{font-size:20px;font-weight:700}
+.soc{margin-top:28px;display:grid;gap:0;max-width:460px}
+.soc a{display:flex;justify-content:space-between;gap:16px;padding:13px 0;border-bottom:1px solid #CDD0D6;color:var(--ink);text-decoration:none;font-weight:700}
+.soc a span{font-weight:400;color:var(--mut)}
+.soc a:hover{color:var(--zl-t)}
+form{background:#fff;padding:clamp(22px,3vw,44px);border-top:3px solid var(--zl)}
+form h3{font-size:clamp(28px,2.4vw,34px);margin-bottom:6px}
+form>p{color:var(--mut);margin-bottom:22px}
+.pola{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+.pola .c{grid-column:1/-1}
+@media (max-width:560px){.pola{grid-template-columns:1fr}}
+label{display:block;font-weight:700;font-size:15px;margin-bottom:6px}
+input,textarea,select{width:100%;font:400 17px M,Mf,sans-serif;padding:12px 14px;border:1px solid #A2A5AE;border-radius:0;background:#fff;color:var(--ink);min-height:52px}
+textarea{min-height:120px;resize:vertical}
+input:focus,textarea:focus,select:focus{outline:2px solid var(--ink);outline-offset:0;border-color:var(--ink)}
+[aria-invalid=true]{border-color:#B3261E}
+.zg{display:flex;gap:10px;align-items:flex-start;font-weight:400;font-size:14.5px;color:var(--mut)}
+.zg input{width:22px;min-height:22px;height:22px;margin:2px 0 0;flex:none;accent-color:var(--zl-t)}
+form .btn{margin-top:22px}
+#msg{margin:16px 0 0;padding:14px 16px;background:var(--bg2);border-left:3px solid var(--zl);font-weight:700}
+/* stopka */
+.stopka{background:var(--foot);color:#BEBBC8;padding:46px 0 28px;font-size:16px}
+.stopka .kl{width:100%;margin-bottom:40px}
+.fg{display:grid;grid-template-columns:1.3fr repeat(3,auto);justify-content:space-between;gap:28px 48px}
+.fg .logo{color:#fff;margin-bottom:16px;display:inline-flex}
+.stopka b{color:#fff;display:block;margin-bottom:8px;font-weight:700}
+.stopka a{color:#BEBBC8;text-decoration:none}
+.stopka a:hover{color:#fff}
+.stopka ul{list-style:none;margin:0;padding:0}.stopka li{padding:3px 0}
+.dol{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px 24px;margin-top:38px;padding-top:20px;border-top:1px solid #26222F;font-size:14px;color:#A7A4B2}
+@media (max-width:860px){.fg{grid-template-columns:1fr 1fr}.fg>div:first-child{grid-column:1/-1}}
+/* lightbox */
+.lb{position:fixed;inset:0;z-index:90;background:rgba(10,8,16,.95);display:none;align-items:center;justify-content:center}
+.lb.on{display:flex}
+.lb figure{margin:0;max-width:94vw;max-height:88vh;display:flex;flex-direction:column;align-items:center}
+.lb img{max-width:94vw;max-height:80vh;width:auto;height:auto;object-fit:contain}
+.lb figcaption{color:#E2E0E8;font-size:15px;margin-top:10px;text-align:center}
+.lb button{position:absolute;background:rgba(255,255,255,.12);border:0;color:#fff;width:52px;height:52px;font-size:26px;cursor:pointer}
+.lb .x{top:14px;right:14px}.lb .p{left:12px;top:50%;margin-top:-26px}.lb .n{right:12px;top:50%;margin-top:-26px}
+@media (min-width:1900px){body{font-size:19.5px}.hero h1{font-size:clamp(92px,4.3vw,118px)}.hero .lead{font-size:26px}.hero .alt{font-size:17px}.menu a{font-size:18px}.logo svg{width:80px;height:33px}.logo b{font-size:28px}.lead{font-size:23px}.dz p,.szk p,.yt p,.ek p{font-size:18.5px}}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+.wylinka-badge{display:inline-flex;align-items:center;gap:.4em;color:inherit;text-decoration:none;font-size:.875em;line-height:1;opacity:.85}
+.wylinka-badge:hover,.wylinka-badge:focus-visible{opacity:1}
+.wylinka-badge:focus-visible{outline:2px solid currentColor;outline-offset:3px;border-radius:2px}
+.wylinka-badge svg{width:18px;height:18px;flex:none;overflow:visible}
+.wylinka-badge b{font-weight:600}
+.wylinka-badge .wy-old{opacity:.45;transform-origin:40px 30px;transition:transform .32s cubic-bezier(.3,.7,.4,1),opacity .32s ease-out}
+.wylinka-badge .wy-pod{opacity:0;transition:opacity .2s ease-out .08s}
+.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:translate(9px,7px) rotate(9deg);opacity:0}
+.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:1}
+@media (prefers-reduced-motion:reduce){.wylinka-badge .wy-old,.wylinka-badge .wy-pod{transition:none}.wylinka-badge:hover .wy-old,.wylinka-badge:focus-visible .wy-old{transform:none;opacity:.45}.wylinka-badge:hover .wy-pod,.wylinka-badge:focus-visible .wy-pod{opacity:0}}
+
+</style>
+</head>
+<body>
+<a class="skip" href="#o-nas">Przejdź do treści</a>
+<header class="top" id="top">
+ <div class="w">
+  <a class="logo" href="#start"><svg viewBox="0 0 96 40" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="3"><circle cx="14" cy="12.5" r="6"/><circle cx="14" cy="27.5" r="6"/><circle cx="6.5" cy="20" r="6"/><circle cx="21.5" cy="20" r="6"/></g><g fill="currentColor"><rect x="27" y="18.3" width="66" height="3.4"/><rect x="30" y="14.5" width="3" height="11"/><rect x="35" y="14.5" width="3" height="11"/><path d="M74 21h19v13h-4v-5h-3.5v7h-4v-4H78v6h-4z"/></g></svg><span>misja<b>22:22</b></span></a>
+  <nav class="menu" id="menu" aria-label="Menu główne">
+   <a href="#o-nas">O nas</a>
+   <a href="#dzialamy">Jak działamy</a>
+   <a href="#zapros">Zaproś nas</a>
+   <a href="#muzyka">Muzyka</a>
+   <a href="#ekipa">Ekipa</a>
+   <a href="#wsparcie">Wsparcie</a>
+   <a href="#kontakt">Kontakt</a>
+   <a class="btn" href="tel:+48609841707"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg>609 841 707</a>
+  </nav>
+  <div class="acts"><a class="tel-m" href="tel:+48609841707" aria-label="Zadzwoń: 609 841 707"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg></a><button class="burger" id="burger" aria-expanded="false" aria-controls="menu" aria-label="Otwórz menu"><i></i></button></div>
+ </div>
+</header>
+<main>
+<section class="hero" id="start">
+ <div class="foto"><picture><source media="(max-width:760px)" srcset="foto/hero-m-480.webp 480w, foto/hero-m-640.webp 640w, foto/hero-m-800.webp 800w" sizes="100vw"><img src="foto/hero-d-1600.webp" srcset="foto/hero-d-960.webp 960w, foto/hero-d-1280.webp 1280w, foto/hero-d-1600.webp 1600w, foto/hero-d-2000.webp 2000w" sizes="100vw" width="1600" height="1066" fetchpriority="high" alt="Uwielbienie tańcem z tkaniną przed sceną, zespół MISJI 22:22 w tle"></picture></div>
+ <div class="w in">
+  <h1>Służba uwielbienia MISJA&nbsp;22:22 - <em>przełomy dla Bożej chwały</em></h1>
+  <p class="lead">Od 2002 roku prowadzimy zgromadzenia do doświadczenia Bożej obecności: prorocze uwielbienie, koncerty, konferencje, szkoły i&nbsp;warsztaty uwielbienia.</p>
+  <div class="rz"><a class="btn" href="#zapros">Zaproś nas do swojego kościoła</a><p class="alt">Wspólnota Chrześcijańska MISJA 22:22, Kościół Boży w&nbsp;Polsce</p></div>
+  <span class="kl" aria-hidden="true"><i></i><svg viewBox="0 0 26 14"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg></span>
+ </div>
+</section>
+
+<section class="sec" id="o-nas">
+ <div class="w on2">
+  <div class="txt">
+   <div class="werset"><b>22:22</b><span>Nazwa nawiązuje do klucza domu Dawidowego z&nbsp;Księgi Izajasza</span></div>
+   <h2>Klucz, który otwiera na Bożą obecność</h2>
+   <span class="kl" aria-hidden="true"><i></i><svg viewBox="0 0 26 14"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg></span>
+   <p class="lead">MISJA 22:22 powstała w 2002 roku. Jako Wspólnota Chrześcijańska należy do struktury Kościoła Bożego w&nbsp;Polsce. Posługując promujemy prorocze uwielbienie, akcentując Bożą chwałę, wstawiennictwo i&nbsp;walkę duchową.</p>
+   <p class="cyt">„Pragniemy widzieć objawioną Bożą chwałę na ziemi, która manifestując się przyciąga ludzi do siebie.”</p>
+   <p>Chcemy wywyższyć Boga zawsze godnego chwały, wskazywać na Niego i&nbsp;dawać Mu miejsce, które tylko Jemu jest należne. Prowadzimy zgromadzenie do doświadczenia Bożej obecności, która niesie ze sobą uwolnienie od duchowych ciężarów, uzdrowienie duszy i&nbsp;ciała oraz skuteczną przemianę życia.</p>
+   <p class="kraje"><b>Oprócz Polski posługiwaliśmy m.in.</b> we Włoszech, w&nbsp;Niemczech, Czechach, Austrii, Ukrainie, Anglii, Szkocji, Indiach, RPA i&nbsp;USA.</p>
+  </div>
+  <figure><img data-src="foto/pa-600.webp" data-srcset="foto/pa-400.webp 400w, foto/pa-600.webp 600w" sizes="(max-width:979px) 92vw, 36vw" width="600" height="800" decoding="async" alt="Agnieszka i Piotr Płecha podczas uwielbienia"><figcaption>Agnieszka i Piotr Płecha prowadzą MISJĘ 22:22 od 2002 roku</figcaption></figure>
+ </div>
+</section>
+
+<section class="sec g" id="dzialamy">
+ <div class="w">
+  <div class="glowa"><h2>Jak działamy</h2><span class="kl" aria-hidden="true"><i></i><svg viewBox="0 0 26 14"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg></span><p class="lead">Uwielbienie, nauczanie i&nbsp;muzyka w&nbsp;kościołach, na konferencjach i&nbsp;koncertach, stacjonarnie i&nbsp;przez internet.</p></div>
+  <ul class="dz">
+   <li><span class="kl" aria-hidden="true"><i></i><svg viewBox="0 0 26 14"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg></span><h3>Uwielbienie i nauczanie</h3><p>Prowadzimy uwielbienie i&nbsp;nauczamy na konferencjach, nabożeństwach i&nbsp;spotkaniach uwielbienia.</p></li>
+   <li><span class="kl" aria-hidden="true"><i></i><svg viewBox="0 0 26 14"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg></span><h3>Szkoły i warsztaty</h3><p>Prowadzimy stacjonarne i&nbsp;internetowe szkoły oraz warsztaty uwielbienia.</p></li>
+   <li><span class="kl" aria-hidden="true"><i></i><svg viewBox="0 0 26 14"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg></span><h3>Zespoły kościołów</h3><p>Szkolimy liderów i&nbsp;zespoły uwielbienia lokalnych kościołów i&nbsp;wspólnot.</p></li>
+   <li><span class="kl" aria-hidden="true"><i></i><svg viewBox="0 0 26 14"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg></span><h3>Koncerty</h3><p>Organizujemy i&nbsp;wykonujemy koncerty w&nbsp;miejscach kościelnych i&nbsp;świeckich, z&nbsp;profesjonalnymi muzykami.</p></li>
+   <li><span class="kl" aria-hidden="true"><i></i><svg viewBox="0 0 26 14"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg></span><h3>Obozy duchowego wzrostu</h3><p>Organizujemy obozy dla tych, którzy chcą wejść głębiej w&nbsp;relację z&nbsp;Bogiem.</p></li>
+   <li><span class="kl" aria-hidden="true"><i></i><svg viewBox="0 0 26 14"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg></span><h3>Uwolnienie i uzdrowienie</h3><p>Konferencje i&nbsp;warsztaty uwolnienia, uzdrowienia, biblijnego tłumaczenia snów i&nbsp;wizji oraz zdrowych relacji.</p></li>
+   <li><span class="kl" aria-hidden="true"><i></i><svg viewBox="0 0 26 14"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg></span><h3>Młode pokolenie</h3><p>Angażujemy się w&nbsp;duchowy rozwój młodych przez inicjatywę niepokonani.org.</p></li>
+   <li><span class="kl" aria-hidden="true"><i></i><svg viewBox="0 0 26 14"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg></span><h3>Muzyka i namaszczenie</h3><p>Łączymy muzyczną brawurę z&nbsp;duchowym namaszczeniem we współpracy z&nbsp;muzykami chrześcijanami.</p></li>
+  </ul>
+  <div class="szk">
+   <div><small>Wrocław, luty - czerwiec 2026</small><h3>Szkoła Proroczego Uwielbienia „Ruch • Dźwięk • Nowa Pieśń”</h3><p>Pięć sobotnich zjazdów z&nbsp;Dorotą i&nbsp;Kubą Herok (YaDaH) oraz Piotrem i&nbsp;Agnieszką Płecha: uwielbienie ruchem, tańcem, dźwiękiem i&nbsp;nową pieśnią, w&nbsp;grupach tanecznej i&nbsp;muzycznej.</p></div>
+   <div><small>Wrocław, 23 - 26 lipca 2026</small><h3>Szkoła Duchowego Życia SDŻ 2026</h3><p>Czterodniowa konferencja MISJI 22:22 we Wrocławiu. Informacje o kolejnych szkołach i&nbsp;konferencjach będą w&nbsp;osobnej zakładce Wydarzenia.</p></div>
+  </div>
+  <div class="galw">
+   <div class="glowa r"><h3>Z naszych spotkań</h3><div class="navb" data-nav="tor-gal"><button type="button" data-k="-1" aria-label="Poprzednie zdjęcia">&#8592;</button><button type="button" data-k="1" aria-label="Następne zdjęcia">&#8594;</button></div></div>
+   <div class="tor gal" id="tor-gal" data-tor><figure><button type="button" data-lb="gal" data-src="foto/g-rece-1170.webp" data-cap="Uniesione ręce podczas wieczoru uwielbienia"><img data-src="foto/g-rece-800.webp" data-srcset="foto/g-rece-480.webp 480w, foto/g-rece-800.webp 800w, foto/g-rece-1170.webp 1170w" sizes="(max-width:1079px) 82vw, (min-width:1900px) 29vw, 38vw" width="800" height="533" decoding="async" alt="Uniesione ręce podczas wieczoru uwielbienia"></button><figcaption>Uniesione ręce podczas wieczoru uwielbienia</figcaption></figure><figure><button type="button" data-lb="gal" data-src="foto/g-flagi-1170.webp" data-cap="Flagi i sztandary w uwielbieniu, zespół na scenie"><img data-src="foto/g-flagi-800.webp" data-srcset="foto/g-flagi-480.webp 480w, foto/g-flagi-800.webp 800w, foto/g-flagi-1170.webp 1170w" sizes="(max-width:1079px) 82vw, (min-width:1900px) 29vw, 38vw" width="800" height="533" decoding="async" alt="Flagi i sztandary w uwielbieniu, zespół na scenie"></button><figcaption>Flagi i sztandary w uwielbieniu, zespół na scenie</figcaption></figure><figure><button type="button" data-lb="gal" data-src="foto/g-taniec-1170.webp" data-cap="Uwielbienie tańcem z tkaniną przed sceną"><img data-src="foto/g-taniec-800.webp" data-srcset="foto/g-taniec-480.webp 480w, foto/g-taniec-800.webp 800w, foto/g-taniec-1170.webp 1170w" sizes="(max-width:1079px) 82vw, (min-width:1900px) 29vw, 38vw" width="800" height="533" decoding="async" alt="Uwielbienie tańcem z tkaniną przed sceną"></button><figcaption>Uwielbienie tańcem z tkaniną przed sceną</figcaption></figure><figure><button type="button" data-lb="gal" data-src="foto/g-scena-1170.webp" data-cap="Czerwona tkanina nad zespołem podczas koncertu"><img data-src="foto/g-scena-800.webp" data-srcset="foto/g-scena-480.webp 480w, foto/g-scena-800.webp 800w, foto/g-scena-1170.webp 1170w" sizes="(max-width:1079px) 82vw, (min-width:1900px) 29vw, 38vw" width="800" height="533" decoding="async" alt="Czerwona tkanina nad zespołem podczas koncertu"></button><figcaption>Czerwona tkanina nad zespołem podczas koncertu</figcaption></figure><figure><button type="button" data-lb="gal" data-src="foto/g-piotr-klaw-1170.webp" data-cap="Piotr Płecha przy instrumentach klawiszowych"><img data-src="foto/g-piotr-klaw-800.webp" data-srcset="foto/g-piotr-klaw-480.webp 480w, foto/g-piotr-klaw-800.webp 800w, foto/g-piotr-klaw-1170.webp 1170w" sizes="(max-width:1079px) 82vw, (min-width:1900px) 29vw, 38vw" width="800" height="533" decoding="async" alt="Piotr Płecha przy instrumentach klawiszowych"></button><figcaption>Piotr Płecha przy instrumentach klawiszowych</figcaption></figure><figure><button type="button" data-lb="gal" data-src="foto/g-spiew-1170.webp" data-cap="Wokalistka zespołu podczas uwielbienia"><img data-src="foto/g-spiew-800.webp" data-srcset="foto/g-spiew-480.webp 480w, foto/g-spiew-800.webp 800w, foto/g-spiew-1170.webp 1170w" sizes="(max-width:1079px) 82vw, (min-width:1900px) 29vw, 38vw" width="800" height="533" decoding="async" alt="Wokalistka zespołu podczas uwielbienia"></button><figcaption>Wokalistka zespołu podczas uwielbienia</figcaption></figure><figure><button type="button" data-lb="gal" data-src="foto/g-skrzypce-1170.webp" data-cap="Skrzypek w słuchawkach na scenie"><img data-src="foto/g-skrzypce-800.webp" data-srcset="foto/g-skrzypce-480.webp 480w, foto/g-skrzypce-800.webp 800w, foto/g-skrzypce-1170.webp 1170w" sizes="(max-width:1079px) 82vw, (min-width:1900px) 29vw, 38vw" width="800" height="533" decoding="async" alt="Skrzypek w słuchawkach na scenie"></button><figcaption>Skrzypek w słuchawkach na scenie</figcaption></figure><figure><button type="button" data-lb="gal" data-src="foto/g-nauczanie-1170.webp" data-cap="Piotr Płecha naucza ze sceny"><img data-src="foto/g-nauczanie-800.webp" data-srcset="foto/g-nauczanie-480.webp 480w, foto/g-nauczanie-800.webp 800w, foto/g-nauczanie-1170.webp 1170w" sizes="(max-width:1079px) 82vw, (min-width:1900px) 29vw, 38vw" width="800" height="533" decoding="async" alt="Piotr Płecha naucza ze sceny"></button><figcaption>Piotr Płecha naucza ze sceny</figcaption></figure><figure><button type="button" data-lb="gal" data-src="foto/g-indie-1110.webp" data-cap="Posługa w Indiach"><img data-src="foto/g-indie-800.webp" data-srcset="foto/g-indie-480.webp 480w, foto/g-indie-800.webp 800w, foto/g-indie-1110.webp 1110w" sizes="(max-width:1079px) 82vw, (min-width:1900px) 29vw, 38vw" width="800" height="533" decoding="async" alt="Posługa w Indiach"></button><figcaption>Posługa w Indiach</figcaption></figure><figure><button type="button" data-lb="gal" data-src="foto/g-warsztaty-795.webp" data-cap="Warsztaty dla zespołu uwielbienia"><img data-src="foto/g-warsztaty-795.webp" data-srcset="foto/g-warsztaty-480.webp 480w, foto/g-warsztaty-795.webp 795w" sizes="(max-width:1079px) 82vw, (min-width:1900px) 29vw, 38vw" width="795" height="530" decoding="async" alt="Warsztaty dla zespołu uwielbienia"></button><figcaption>Warsztaty dla zespołu uwielbienia</figcaption></figure><figure><button type="button" data-lb="gal" data-src="foto/g-mlody-795.webp" data-cap="Młody skrzypek na scenie"><img data-src="foto/g-mlody-795.webp" data-srcset="foto/g-mlody-480.webp 480w, foto/g-mlody-795.webp 795w" sizes="(max-width:1079px) 82vw, (min-width:1900px) 29vw, 38vw" width="795" height="530" decoding="async" alt="Młody skrzypek na scenie"></button><figcaption>Młody skrzypek na scenie</figcaption></figure></div>
+  </div>
+ </div>
+</section>
+
+<section class="sec ciem" id="zapros">
+ <div class="w zp">
+  <figure><img data-src="foto/rece-pion-624.webp" data-srcset="foto/rece-pion-480.webp 480w, foto/rece-pion-624.webp 624w" sizes="(max-width:999px) 92vw, 30vw" width="624" height="780" decoding="async" alt="Uniesione ręce podczas wieczoru uwielbienia"><figcaption>Wieczór uwielbienia MISJI 22:22</figcaption></figure>
+  <div>
+   <h2>Zaproś nas do swojej społeczności</h2>
+   <span class="kl" aria-hidden="true"><i></i><svg viewBox="0 0 26 14"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg></span>
+   <p class="lead">Przyjedziemy do Twojego kościoła lub wspólnoty. Przykładowe posługi MISJI 22:22:</p>
+   <ul class="pos">
+    <li><svg viewBox="0 0 26 14" aria-hidden="true"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg><b>Konferencja uwielbienia dla wszystkich wierzących</b><span>Piotr Płecha</span></li>
+    <li><svg viewBox="0 0 26 14" aria-hidden="true"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg><b>Warsztaty dla lokalnego zespołu uwielbienia</b><span>Piotr Płecha</span></li>
+    <li><svg viewBox="0 0 26 14" aria-hidden="true"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg><b>Posługa na nabożeństwie: uwielbienie, nauczanie</b><span>Piotr Płecha</span></li>
+    <li><svg viewBox="0 0 26 14" aria-hidden="true"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg><b>Wieczór uwielbienia</b><span>Piotr Płecha samodzielnie lub z zespołem</span></li>
+    <li><svg viewBox="0 0 26 14" aria-hidden="true"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg><b>Koncert ewangelizacyjny, m.in. kolędowy i pasyjny</b><span>Piotr Płecha lub z zespołem</span></li>
+    <li><svg viewBox="0 0 26 14" aria-hidden="true"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg><b>Warsztaty dla rodziców „Duchowe zagrożenia współczesnej młodzieży”</b><span>Agnieszka Płecha</span></li>
+    <li><svg viewBox="0 0 26 14" aria-hidden="true"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg><b>Konferencja lub warsztaty biblijnego tłumaczenia snów</b><span>Iwona Krzemińska</span></li>
+    <li><svg viewBox="0 0 26 14" aria-hidden="true"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg><b>Konferencja lub warsztaty uwolnienia i uzdrowienia</b><span>Iwona Krzemińska</span></li>
+   </ul>
+   <a class="btn" href="#kontakt">Napisz zaproszenie</a>
+  </div>
+ </div>
+</section>
+
+<section class="sec" id="muzyka">
+ <div class="w">
+  <div class="glowa r"><div><h2>Płyty i nagrania</h2><span class="kl" aria-hidden="true"><i></i><svg viewBox="0 0 26 14"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg></span><p class="lead">Rejestracje spotkań uwielbienia, pieśni pasyjne, kolędy i&nbsp;muzyka instrumentalna do modlitwy. Piotr Płecha: śpiew, instrumenty klawiszowe.</p></div><div class="navb" data-nav="tor-cd"><button type="button" data-k="-1" aria-label="Poprzednie płyty">&#8592;</button><button type="button" data-k="1" aria-label="Następne płyty">&#8594;</button></div></div>
+  <div class="tor cd" id="tor-cd" data-tor><figure><img data-src="foto/cd-kto-380.webp" data-srcset="foto/cd-kto-380.webp 380w" sizes="(max-width:1079px) 62vw, 15vw" width="380" height="380" decoding="async" alt="Okładka płyty KTO?"><figcaption>KTO?<small>Rejestracja spotkań uwielbienia</small></figcaption></figure><figure><img data-src="foto/cd-wiecej-380.webp" data-srcset="foto/cd-wiecej-380.webp 380w" sizes="(max-width:1079px) 62vw, 15vw" width="380" height="380" decoding="async" alt="Okładka płyty Więcej niż pieśń"><figcaption>Więcej niż pieśń<small>Wieczór chwały na żywo</small></figcaption></figure><figure><img data-src="foto/cd-nowa-380.webp" data-srcset="foto/cd-nowa-380.webp 380w" sizes="(max-width:1079px) 62vw, 15vw" width="380" height="380" decoding="async" alt="Okładka płyty Nowa pieśń"><figcaption>Nowa pieśń<small>Spontaniczne uwielbienie na żywo</small></figcaption></figure><figure><img data-src="foto/cd-golgota-380.webp" data-srcset="foto/cd-golgota-380.webp 380w" sizes="(max-width:1079px) 62vw, 15vw" width="380" height="380" decoding="async" alt="Okładka płyty Golgota"><figcaption>Golgota<small>Pieśni pasyjne</small></figcaption></figure><figure><img data-src="foto/cd-peace-380.webp" data-srcset="foto/cd-peace-380.webp 380w" sizes="(max-width:1079px) 62vw, 15vw" width="380" height="380" decoding="async" alt="Okładka płyty Peace &amp; Hope"><figcaption>Peace &amp; Hope<small>Muzyka instrumentalna do modlitwy</small></figcaption></figure><figure><img data-src="foto/cd-koledy-380.webp" data-srcset="foto/cd-koledy-380.webp 380w" sizes="(max-width:1079px) 62vw, 15vw" width="380" height="380" decoding="async" alt="Okładka płyty Bóg się rodzi"><figcaption>Bóg się rodzi<small>Kolędy</small></figcaption></figure></div>
+  <div class="yt">
+   <div><h3>Esencja uwielbienia</h3><p>Trzy skondensowane nauczania Piotra Płechy o&nbsp;biblijnym uwielbieniu: codziennym życiem, niebiańskim i&nbsp;proroczym.</p></div>
+   <div><h3>Ładowarka i Kolacja czwartkowa</h3><p>Cykle nauczań, w&nbsp;tym 58 części Kolacji czwartkowej, do obejrzenia na naszym kanale YouTube.</p></div>
+   <div><h3>Nagrania live</h3><p>Improwizacje, koncert pasyjny Golgota i&nbsp;wieczory uwielbienia. <a href="https://www.youtube.com/@misja2222" rel="noopener">Kanał YouTube MISJI 22:22</a></p></div>
+  </div>
+ </div>
+</section>
+
+<section class="sec g" id="ekipa">
+ <div class="w">
+  <div class="glowa"><h2>Ekipa MISJI 22:22</h2><span class="kl" aria-hidden="true"><i></i><svg viewBox="0 0 26 14"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg></span></div>
+  <div class="ek">
+   <article><figure><img data-src="foto/piotr-560.webp" data-srcset="foto/piotr-320.webp 320w, foto/piotr-560.webp 560w" sizes="(max-width:699px) 92vw, (max-width:1099px) 46vw, 30vw" width="560" height="700" decoding="async" alt="Piotr Płecha"></figure><h3>Piotr Płecha</h3><p class="rola">Lider uwielbienia, muzyk, wokalista, kaznodzieja, pastor</p><p>W służbie Bogu od spotkania z&nbsp;Jezusem w&nbsp;1986 roku. Niegdyś gitarzysta basowy m.in. Budki Suflera. Współpracował z&nbsp;Donem Potterem, Suzy Wills, MorningStar Band, Peterem Helmsem i&nbsp;zespołem TGD. Pastor wrocławskiego kościoła „Dom Chwały”.</p></article>
+   <article><figure><img data-src="foto/agnieszka-560.webp" data-srcset="foto/agnieszka-320.webp 320w, foto/agnieszka-560.webp 560w" sizes="(max-width:699px) 92vw, (max-width:1099px) 46vw, 30vw" width="560" height="700" decoding="async" alt="Agnieszka Płecha"></figure><h3>Agnieszka Płecha</h3><p class="rola">Proroczy wstawiennik, doradca duchowy</p><p>Od 2002 roku wspólnie z&nbsp;mężem koordynuje działania MISJI 22:22. Nosi w&nbsp;sercu pasję dla młodego pokolenia, prowadząc młodzież do pełni wolności i&nbsp;dojrzałości w&nbsp;Chrystusie.</p></article>
+   <article><figure><img data-src="foto/iwona-560.webp" data-srcset="foto/iwona-320.webp 320w, foto/iwona-560.webp 560w" sizes="(max-width:699px) 92vw, (max-width:1099px) 46vw, 30vw" width="560" height="700" decoding="async" alt="Iwona Krzemińska"></figure><h3>Iwona Krzemińska</h3><p class="rola">Misjonarka MISJI 22:22</p><p>Doświadczona w&nbsp;służbie proroczej, uwolnienia i&nbsp;biblijnym tłumaczeniu snów, której uczyła się od Johna Paula Jacksona. Prowadziła pierwszą w&nbsp;Polsce internetową szkołę tłumaczenia snów i&nbsp;wizji.</p></article>
+  </div>
+  <p class="wsp"><b>Razem z nami służą</b> Robert i Dominika Wieczorek z&nbsp;kościoła Dom Chwały, realizator dźwięku Wojciech Białoskórski, który wspiera misję od początku jej istnienia, Dorota i&nbsp;Jakub Herok ze służby YaDaH (uwielbienie tańcem) oraz muzycy, tancerze i&nbsp;wstawiennicy z&nbsp;różnych wspólnot w&nbsp;całej Polsce.</p>
+ </div>
+</section>
+
+<section class="sec" id="wsparcie">
+ <div class="w">
+  <div class="glowa"><h2>Wesprzyj MISJĘ 22:22</h2><span class="kl" aria-hidden="true"><i></i><svg viewBox="0 0 26 14"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg></span></div>
+  <div class="ws">
+   <div><span class="kl" aria-hidden="true"><i></i><svg viewBox="0 0 26 14"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg></span><h3>Wsparcie modlitewne</h3><p>Modlitwy przyczyniają się do ochrony posługujących i&nbsp;do wzrostu dziękczynienia (2 Kor 1:11). Jeśli chcesz modlić się za nas regularnie lub okazjonalnie, napisz na <a href="mailto:biuro@misja2222.pl">biuro@misja2222.pl</a>. Będziemy przesyłać Ci informacje o&nbsp;naszej działalności i&nbsp;potrzeby modlitewne.</p></div>
+   <div><span class="kl" aria-hidden="true"><i></i><svg viewBox="0 0 26 14"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg></span><h3>Wsparcie finansowe</h3><p>Jeśli doceniasz działalność MISJI 22:22, możesz wesprzeć nas jednorazową lub regularną ofiarą.</p>
+    <div class="konto"><p>Wspólnota Chrześcijańska MISJA 22:22</p><p class="nr">19 1140 2004 0000 3102 7745 7220</p><small>Wpłaty z zagranicy (EUR, USD): dane na podstronie Wsparcie</small></div>
+    <p class="studio">Projekt „STUDIO”: budujemy muzyczne studio nagraniowe. Wsparcie budowy i&nbsp;wyposażenia prosimy przesyłać z&nbsp;dopiskiem „STUDIO”.</p></div>
+  </div>
+ </div>
+</section>
+
+<section class="sec g" id="kontakt">
+ <div class="w kon">
+  <div>
+   <h2>Kontakt</h2>
+   <span class="kl" aria-hidden="true"><i></i><svg viewBox="0 0 26 14"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg></span>
+   <div class="os">
+    <p><a class="t" href="tel:+48609841707"><svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><path d="M5 3h4l2 5-2.5 1.5a11 11 0 0 0 6 6L16 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 5a2 2 0 0 1 2-2z"/></svg>609 841 707</a></p>
+    <p><a class="mail" href="mailto:biuro@misja2222.pl">biuro@misja2222.pl</a></p>
+   </div>
+   <div class="soc">
+    <a href="https://www.facebook.com/Misja2222" rel="noopener">Facebook<span>MISJA 22:22</span></a>
+    <a href="https://www.youtube.com/@misja2222" rel="noopener">YouTube<span>@misja2222</span></a>
+    <a href="https://www.facebook.com/PiotrPlechaOficjalnie" rel="noopener">Facebook<span>Piotr Płecha</span></a>
+    <a href="https://www.youtube.com/@piotr.plecha" rel="noopener">YouTube<span>@piotr.plecha</span></a>
+   </div>
+  </div>
+  <form id="form" novalidate>
+   <h3>Zaproszenie do posługi</h3>
+   <p>Napisz, gdzie i kiedy chcesz nas gościć. Odpowiemy mailowo lub telefonicznie.</p>
+   <div class="pola">
+    <div><label for="f1">Imię i nazwisko</label><input id="f1" name="imie" autocomplete="name" required></div>
+    <div><label for="f2">E-mail lub telefon</label><input id="f2" name="kontakt" autocomplete="email" required></div>
+    <div><label for="f3">Kościół / wspólnota, miejscowość</label><input id="f3" name="wspolnota"></div>
+    <div><label for="f4">Proponowany termin</label><input id="f4" name="termin"></div>
+    <div class="c"><label for="f5">Rodzaj posługi</label><select id="f5" name="rodzaj"><option>Konferencja uwielbienia</option><option>Warsztaty dla zespołu uwielbienia</option><option>Posługa na nabożeństwie</option><option>Wieczór uwielbienia</option><option>Koncert ewangelizacyjny</option><option>Warsztaty dla rodziców</option><option>Tłumaczenie snów</option><option>Uwolnienie i uzdrowienie</option><option>Inne</option></select></div>
+    <div class="c"><label for="f6">Wiadomość</label><textarea id="f6" name="tresc"></textarea></div>
+    <div class="c"><label class="zg"><input type="checkbox" required> Zgadzam się na kontakt w sprawie zaproszenia. Szczegóły w polityce prywatności.</label></div>
+   </div>
+   <button class="btn" type="submit">Wyślij zaproszenie</button>
+   <p id="msg" hidden>To podgląd strony: formularz zacznie wysyłać wiadomości po wdrożeniu. Na razie zapraszamy do kontaktu: 609 841 707, biuro@misja2222.pl.</p>
+  </form>
+ </div>
+</section>
+</main>
+
+<footer class="stopka">
+ <div class="w">
+  <span class="kl" aria-hidden="true"><i></i><svg viewBox="0 0 26 14"><path d="M0 0h26v14h-5V8h-5v4h-5V7H6v7H0z"/></svg></span>
+  <div class="fg">
+   <div><a class="logo" href="#start"><svg viewBox="0 0 96 40" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="3"><circle cx="14" cy="12.5" r="6"/><circle cx="14" cy="27.5" r="6"/><circle cx="6.5" cy="20" r="6"/><circle cx="21.5" cy="20" r="6"/></g><g fill="currentColor"><rect x="27" y="18.3" width="66" height="3.4"/><rect x="30" y="14.5" width="3" height="11"/><rect x="35" y="14.5" width="3" height="11"/><path d="M74 21h19v13h-4v-5h-3.5v7h-4v-4H78v6h-4z"/></g></svg><span>misja<b>22:22</b></span></a><br>Wspólnota Chrześcijańska MISJA 22:22.<br>Służba uwielbienia od 2002 roku.</div>
+   <div><b>Misja</b><ul><li><a href="#o-nas">O nas</a></li><li><a href="#dzialamy">Jak działamy</a></li><li><a href="#ekipa">Ekipa</a></li></ul></div>
+   <div><b>Posługa</b><ul><li><a href="#zapros">Zaproś nas</a></li><li><a href="#muzyka">Muzyka</a></li><li><a href="#wsparcie">Wsparcie</a></li></ul></div>
+   <div><b>Kontakt</b><ul><li><a href="tel:+48609841707">609 841 707</a></li><li><a href="mailto:biuro@misja2222.pl">biuro@misja2222.pl</a></li><li><a href="https://www.facebook.com/Misja2222" rel="noopener">Facebook</a></li></ul></div>
+  </div>
+  <div class="dol"><span>© <span id="rok">2026</span> MISJA 22:22 · Polityka prywatności</span><a class="wylinka-badge" href="https://wylinka.pl/?utm_source=misja2222.pl&amp;utm_medium=stopka&amp;utm_campaign=wykonanie" rel="noopener" title="Strona wykonana przez Wylinka"><svg viewBox="0 0 64 64" aria-hidden="true" focusable="false" fill="currentColor"><path d="M9.8 22.8l-1.2-7.9 2.2-3.7 15.5 4.6-.5 1.5-7.2 5.5 4.7 15.6 5-15.6 7 0 4.1 12.7-4.2-.9-2.6 1.8-.8-2.2-5.3 15.6-4.3 0 .4 .2-2.1 2.8-1.3-1.1 1.1-1.4-3.1 .2-.1-1.7 2.2-.1-5.7-16.5-4.8 .6-.8 3.1 0 .5-.3 .5 .8 2.2-1.6 .5-.4-1.3-.8 1.6-1.5-.8 .8-1.6-1.4 .6-.6-1.6 2.3-.8 .2-.4 1.3-4.8 5.9-.8-2.4-6.9zM15.2 13.7l-.1-.4-.4 .8-.1 .8 .1 1 .1 .4 .3 .7 .3-.9 .1-.7 0-.8z"/><path class="wy-pod" d="M37.1 49.8l-4.5-13.3 2.6-1.8 4.2 .9 .9 2.8 3-9.7 0-.5 .1-.8 3.2-8.4 .5-1 .6-1 .9-1.1 1.3-1 1.1-.7 1.4-.5 1.4-.3 .7 0 .9 0 1.2 .3 1.4 .6 .8 .5 .7 .7 .6 .7 .5 .9 .3 .9 .1 .9 0 .8-.2 .9-.5 .9-.5 .6-.7 .5-.7 .3-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.6-.1-.6-.3-.7-.4-.5-.4-.4-.5-.3-.6-.3-.7 0-.7 .1-.6 .1-.5 .4-.5 .5-.3 .5-.2 .7-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1-2.1-2.8 .4-.2z"/><path class="wy-old" d="M40.8 50l.4-.2-4.1 0-4.2-12.5 2.5-1.7 4.3 .9 .6 1.9 .6-1.6 0-.3 2.4-7.8 0-.5 .1-.8 3.2-8.4 .4-.8 .6-.9 .9-1.2 .9-.9 1.3-.8 1.4-.6 1.2-.3 1.4-.1 1.3 .1 .6 .2 .8 .3 1.1 .6 .9 .7 .7 .9 .5 .9 .3 .9 .1 1.1-.1 .9-.3 .9-.4 .7-.6 .7-.6 .4-.6 .2-.1-.1 0-.1 .5-.5 .3-.7 .2-.5 0-.5-.1-.6-.2-.6-.3-.5-.4-.5-.5-.3-.6-.3-.7-.1-.6 0-.6 .1-.6 .3-.6 .5-.3 .4-.2 .5-.1 .5-.1 1.5-1.4 5.1-.8 3.3-.3 .7-.5 .7-6 17.5 1.9 .1-.1 1.7-3.1-.2 1.1 1.4-1.3 1.1zM49.6 17.1l.6 1.7-1.5 1.9 .4 .4 1.8-2.1-.7-2.1zM48.1 28.3l.5 1.8-1.7 1.8 .4 .4 1.9-2-.6-2.2zM37.9 41.7l1.7-1.5-.4-.4-1.7 1.4zM42.6 38.7l-1.5 2.8 1.1 2-1.3 2.6 .5 .2 1.5-2.8-1.1-2 1.4-2.5z"/></svg><span>wykonanie: <b>Wylinka</b></span></a></div>
+ </div>
+</footer>
+
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Powiększone zdjęcie"><figure><img alt=""><figcaption></figcaption></figure><button class="x" type="button" aria-label="Zamknij">&#215;</button><button class="p" type="button" aria-label="Poprzednie">&#8592;</button><button class="n" type="button" aria-label="Następne">&#8594;</button></div>
+<script src="app.js" defer></script>
+</body>
+</html>
